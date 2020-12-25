@@ -7,6 +7,7 @@ import mongoose from 'mongoose';
 import { config } from './store/config';
 import { applyPassportStrategy } from './store/passport';
 import { userController, mailingController } from './controller';
+
 const app = express();
 // Apply strategy to passport
 applyPassportStrategy(passport);
