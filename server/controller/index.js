@@ -1,3 +1,3 @@
 import userController from './user.controller';
-
-export { userController };
+import mailingController from './mailing.controller';
+export { userController, mailingController };
